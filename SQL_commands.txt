@@ -1,0 +1,24 @@
+
+CREATE DATABASE `interview`
+
+CREATE TABLE `customers` (
+  `FirstName` varchar(32) NOT NULL COMMENT 'This is the first name of the customer that applied, it can not be null',
+  `LastName` varchar(32) NOT NULL COMMENT 'this is the last name of the customer that applied, it can not be null',
+  `Email` varchar(64) NOT NULL COMMENT 'this is the email of the customer that applied, the emails are our primary key and must be unique, this can not be null',
+  `Offers` varchar(4) NOT NULL COMMENT 'this is a checkbox to see if the customer would like to recieve emails from us about other offers, this can not be null',
+  `TodaysDate` date NOT NULL COMMENT 'this is a date to make sure that our customers are not mass applying in 1 day, this can not be null'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `customers`
+--
+
+INSERT INTO `customers` (`FirstName`, `LastName`, `Email`, `Offers`, `TodaysDate`) VALUES
+('Michael', 'Castillo', 'bababooey@gmail.com', 'no', '2021-10-06'),
+('Michael', 'Castillo', 'lsxkiller9000@gmail.com', 'Yes', '2021-10-07'),
+('Sean', 'Santorufo', 'sean@gmail.com', 'Yes', '2021-09-29'),
+('MC', 'MCC', 'Test2@gmail.com', 'yes', '2021-09-29'),
+('test', 'test2', 'test3@gmail.com', 'Yes', '2021-09-29'),
+('M', 'C', 'test@gmail.com', 'no', '2021-09-29'),
+('Michael', 'Castillo', 'tester@gmail.com', 'Yes', '2021-09-29'),
+('sean', 'san', 'yessir@gmail.com', 'no', '2021-10-06');
