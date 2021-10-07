@@ -15,7 +15,6 @@ CREATE TABLE `customers` (
 
 INSERT INTO `customers` (`FirstName`, `LastName`, `Email`, `Offers`, `TodaysDate`) VALUES
 ('Michael', 'Castillo', 'bababooey@gmail.com', 'no', '2021-10-06'),
-('Michael', 'Castillo', 'lsxkiller9000@gmail.com', 'Yes', '2021-10-07'),
 ('Sean', 'Santorufo', 'sean@gmail.com', 'Yes', '2021-09-29'),
 ('MC', 'MCC', 'Test2@gmail.com', 'yes', '2021-09-29'),
 ('test', 'test2', 'test3@gmail.com', 'Yes', '2021-09-29'),
