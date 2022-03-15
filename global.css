@@ -1,0 +1,13 @@
+html,body{
+    background-color: #555555;
+}
+
+.form-box{
+    background-color: white;
+    border: solid 2px black;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

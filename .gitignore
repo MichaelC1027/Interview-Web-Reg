@@ -1,0 +1,6 @@
+/html/test
+/diagram
+/vendor
+.DS_Store
+composer.lock
+/.idea
