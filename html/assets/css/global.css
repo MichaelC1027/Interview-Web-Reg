@@ -1,8 +1,9 @@
-html,body{
+html,
+body {
     background-color: #555555;
 }
 
-.form-box{
+.form-box {
     background-color: white;
     border: solid 2px black;
     padding: 25px;
@@ -10,4 +11,8 @@ html,body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.error {
+    color: red;
 }
